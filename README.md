@@ -150,5 +150,43 @@ Importing data into Power BI from a MySQL database is a crucial step in this pro
 
 
 
+  ![data model](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/data%20model.PNG)
+
+### Dashboard Design:
+
+Upon receiving the mock-ups as per requirements, the team will commence the design phase, crafting visuals and implementing measures as needed.
+
+### Home View:
+
+The central Home view acts as a gateway to all other sections, featuring buttons for seamless navigation to specific view pages upon user interaction.
+
+#### Views:
+
+##### Info: Offers general updates and organizational information.
+##### Finance View: Presents financial insights, including key metrics and performance indicators.
+##### Sales View: Provides comprehensive sales data, encompassing revenue, trends, and customer analytics.
+##### Marketing View: Showcases marketing campaign analytics, return on investment (ROI), and customer engagement metrics.
+##### Supply Chain View: Offers visibility into supply chain operations, inventory management, and logistical data.
+##### Executive View: Delivers high-level KPIs and strategic insights tailored for executive decision-making.
+##### Support: Facilitates access to support resources and assistance for users.
+
+
+By structuring the dashboard into distinct views, users can effortlessly access relevant information, fostering informed decision-making and enhancing overall user experience.
+
+#### Home:
+![Home](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/home.PNG)
+#### Finance:
+![Finance](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/finance.PNG)
+#### Sales:
+![Sales View](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/sales.PNG)
+#### Marketing: 
+![Marketing view](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/marketing.PNG)
+#### Supply chain:
+![Supply Chain](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/supply%20chain.PNG)
+#### Executive:
+![Executive](https://github.com/Nitha-SKumar/Business-Insights-360/blob/main/Reports/executive%20view.PNG)
+
+
+
 
 
