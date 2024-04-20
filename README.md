@@ -93,3 +93,62 @@ Before diving into dashboard development, it's essential to address several key 
 - What potential challenges or risks might impact the project's success?
 - What data sources and resources are necessary to construct the dashboard?
 - Have stakeholders provided input on dashboard design and visualization preferences?
+
+
+Following the project kickoff meetings, the data engineering team has provided the requested datasets to the data analytics team. Now, let's delve into understanding the dataset:
+
+### Dataset Overview:
+
+Understanding the available data is crucial for effective analysis. Before delving into analysis, it's essential to gain a comprehensive understanding of the dataset.
+
+### Dimension Tables:
+
+#### dim_customer:
+- Contains static data such as customer and product details.
+- 27 distinct markets (e.g., India, USA, Spain).
+- 75 distinct customers across markets.
+- Two types of platforms: Brick & Mortar (physical/offline store) and E-commerce (online store).
+= Three channels: Retailer, Direct, and Distributors.
+#### dim_market:
+- Includes 27 distinct markets with 7 sub-zones and 4 regions (APAC, EU, LATAM).
+#### dim_product:
+- Divisions: P & A (Peripherals & Accessories), PC (Personal Computer), N & S (Networking & Storage).
+14 different categories (e.g., Internal HDD, Keyboard).
+-Various product variants.
+### Fact Tables:
+
+#### fact_forecast_monthly:
+- Used for forecasting customer needs in advance.
+- Denormalized for analytical purposes.
+- Contains columns with the start date of each month and forecasted quantity needed by customers.
+#### fact_sales_monthly:
+- Similar to fact_forecast_monthly but with actual sold quantities instead of forecasted values.
+### Additional Tables:
+
+#### gdb056_freight_cost:
+-Details of travel and other costs for each market per fiscal year.
+#### gdb056_gross_price:
+- Contains gross prices with product codes.
+#### gdb056_manufacturing_cost:
+- Provides manufacturing cost details with product codes and years.
+#### gdb056_Pre_invoice_dedutions:
+- Details of pre-invoice deductions percentages for each customer per year.
+#### gdb056_Post_invoice_deductions:
+- Details of post-invoice deductions and other deductions.
+ 
+The provided dataset offers a wealth of information that will be instrumental in conducting comprehensive analyses and deriving valuable insights.
+
+Importing data into Power BI from a MySQL database is a crucial step in this project. Access credentials for the database will be required to establish the connection and import the datasets.
+
+### Data Model:
+
+- Data modeling forms the foundation of the report-building process in Power BI. All visualizations are constructed based on the data model, making it a critical component.
+
+- In this project, we have adopted the Snowflake data modeling method, which involves organizing data into multiple normalized tables connected by foreign key relationships. This approach facilitates efficient querying and analysis while maintaining data integrity.
+
+- By implementing sound data modeling practices and leveraging the Snowflake method, we aim to create a robust foundation for our Power BI reports, enabling us to derive meaningful insights and drive informed decision-making.
+
+
+
+
+
